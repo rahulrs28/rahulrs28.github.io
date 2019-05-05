@@ -1,0 +1,197 @@
+body{ 
+    letter-spacing: 1px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+}
+.overlay{ 
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+.titleMessage{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 50%;
+    z-index: 5;
+    text-align: center;
+    margin-top: -125px;
+}
+.titleMessage .main  { 
+    color: #fff;
+    font-weight: 100;
+    letter-spacing: 5px;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    font-size: 40px;
+}
+.sub{ 
+    color: #fff;
+    font-size: 25px;
+}
+.section{ 
+    padding: 100px 0px;
+}
+.aboutimg{ 
+    max-width: 100%;
+    border: 2px solid #1ba94c ;
+    
+}
+h4{ color: #fff;
+
+}
+.head{ 
+    background-color: #1ba94c;
+}
+.aboutsec{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.skillsection,.contactSection{ 
+    background-color: #1ba94c;
+    color:#fff;
+}
+.contactSection{ 
+    margin-top: 50px;
+}
+.skill{ 
+    text-align: center;
+    margin-left: 10px;
+
+}
+.chart{ 
+   position: relative;
+   width: 152px;
+   height: 152px;
+   display: inline-block;
+ 
+   text-align: center;  
+}
+.chart canvas{ 
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.chart .percent{ 
+    color: #fff;
+    line-height: 152px;
+    display: inline-block;
+    font-size:35px;
+
+}
+.chart .percent::after{ 
+    content: '%';
+}
+.squareItem{ 
+    margin-top: 30px;
+    position: relative;
+}
+.squareInnerContainer{ 
+    position: relative;
+    text-align: center;
+    border: 2px solid #1ba94c;
+    border-top: none;
+    padding: 50px 15px 35px;
+}
+.squareInnerContainer::before,
+.squareInnerContainer::after{ 
+    content: '';
+    position: absolute;
+    border: 1px solid #1ba94c;
+    top: 0;
+    width: 30%;
+
+}
+.squareInnerContainer::before{ 
+    right: 0px;
+
+}
+.squareInnerContainer::after{ 
+    left: 0px;
+    
+}
+.squareContent h2{ 
+font-size: 56px;
+margin-bottom: 10px;
+font-weight: 400;
+color: #1ba94c;
+}
+.squareContent h3{ 
+    font-size: 15px;
+    margin: 0px;
+    font-weight: 600;
+    color: #1ba94c;
+}
+.squareIcon{ 
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    width: 40%;
+    height: 60px;
+    font-size: 45px;
+    margin-left: -20%;
+    color: #1ba94c;
+
+}
+.contactButton{ 
+    color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+
+}
+.contactButton:hover{ 
+    text-decoration: none;
+    background-color: #fff;
+    color: #1ba94c;
+
+}
+.copyrightSection{ 
+    background-color: #000;
+    color: #fff;
+    padding: 30px 5px;
+}
+.copyrightSection p 
+{ 
+    margin: 0;
+}
+#navigation{ 
+    background-color: #1ba94c;
+    padding: 20px 10px;
+    z-index: 100;
+}
+#navigation li{ 
+    padding: 0 10px;
+
+}
+#navigation li a{ 
+    color: #fff;
+}
+.navbar-brand,.navbar-brand:hover{ 
+    color: #fff;
+}
+.navbar-toggler-icon{ 
+    background: url(../img/icon/menu.png);
+    background-size: 100%;
+    border: 1px solid #fff;
+   
+}
+.loader{ 
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    z-index: 1000;
+}
+.loader .inner{ 
+    height: 100%;
+    width: 100%;
+    background: url(../img/728.gif) center center no-repeat;
+}
